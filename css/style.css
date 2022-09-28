@@ -366,6 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .burger__cross {
   position: absolute;
+  background-color: transparent;
   width: 20px;
   height: 20px;
   top: 50%;
@@ -527,6 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .burger__cross {
   position: absolute;
+  background-color: transparent;
   width: 20px;
   height: 20px;
   top: 50%;
