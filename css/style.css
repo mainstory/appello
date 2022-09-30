@@ -584,6 +584,9 @@ body {
   background-color: #0F0D34;
   overflow-x: hidden;
 }
+body._lock-scroll {
+  overflow: hidden;
+}
 
 ._container {
   max-width: 1200px;
