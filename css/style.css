@@ -543,7 +543,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1170px) and (max-width: 1170px) {
   .start__title {
-    font-size: calc(26px + 16 * ((100vw - 320px) / 850));
+    font-size: calc(32px + 10 * ((100vw - 320px) / 850));
   }
 }
 @media (max-width: 1170px) and (max-width: 1170px) {
@@ -563,12 +563,19 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1170px) {
   .start__paragraph {
     /* Если меньше контейнера */
+    font-size: 11px;
+    /* Если меньше контейнера */
     max-width: 411px;
   }
 }
 @media (max-width: 1170px) and (max-width: 1170px) {
   .start__paragraph {
-    max-width: calc(311px + 100 * ((100vw - 320px) / 850));
+    font-size: calc(14px + -3 * ((100vw - 320px) / 850));
+  }
+}
+@media (max-width: 1170px) and (max-width: 1170px) {
+  .start__paragraph {
+    max-width: calc(260px + 151 * ((100vw - 320px) / 850));
   }
 }
 body {
